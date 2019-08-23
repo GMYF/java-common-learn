@@ -76,7 +76,7 @@ public class SellTicketsDemo {
                 long time2 = calendar.getTimeInMillis();
                 System.out.println(sellAddress + Thread.currentThread().getName() + "出票总用时:"+(time2-time1));
                 try {
-                    Thread.currentThread().sleep(1000);
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
