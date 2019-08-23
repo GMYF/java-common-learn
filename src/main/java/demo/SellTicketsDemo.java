@@ -90,6 +90,7 @@ public class SellTicketsDemo {
             System.out.println( Thread.currentThread().getName()+"检测当前票数为:"+tickets);
             if(tickets==0){
                ticketsFlag =true;
+               test();
             }
         }
     }
